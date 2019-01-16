@@ -5,7 +5,7 @@
   "main": "dist/smart-table.js",
   "scripts": {
     "postinstall": "bower install",
-    "test": "node ./node_modules/.bin/gulp karma-CI",
+    "test": "gulp karma-CI",
     "build": "gulp build",
     "prepack": "npm run build"
   },
